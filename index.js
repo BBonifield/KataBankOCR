@@ -23,8 +23,6 @@ Your first task is to write a program that can take this file and parse it into 
 
 
 var argv = require('optimist').argv;
-var _ = require('lodash');
-
 var AccountParser = require('./lib/account_parser');
 
 var parser = new AccountParser(argv.input);
